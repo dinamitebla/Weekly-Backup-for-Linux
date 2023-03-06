@@ -8,6 +8,7 @@ This script creates a zip file of the folder /home/$USER/Documents once every 7 
 Follow [this](https://stackoverflow.com/questions/12973777/how-to-run-a-shell-script-at-startup) tutorial
 
 # How to customize it:
+You can customize this file the way you want. Below are some examples:
 ## Encrypt your zip file:
 Use the --password option (usage: --password <password>). Beware of the fact that using this metod your password is in the clear and everyone with access to the bash file could read it.
 
