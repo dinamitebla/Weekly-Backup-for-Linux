@@ -16,6 +16,6 @@ Use the --password option (usage: --password <password>). Be aware that by using
 Use the -x option (usage: -x <paths>).
   
 Exclude a folder:  
-zip -r -q /home/$USER/Backups/$Filename /home/$USER/Documents -x "/home/$USER/Documents/folder"\\*
+zip -r -q /home/$USER/Backups/$Filename /home/$USER/Documents -x "/home/$USER/Documents/folder"\\*  
 Exclude a file:  
 zip -r -q /home/$USER/Backups/$Filename /home/$USER/Documents -x "/home/$USER/Documents/filename"
