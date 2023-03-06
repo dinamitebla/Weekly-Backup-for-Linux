@@ -13,7 +13,7 @@ You can customize this file the way you want. Below are some examples:
 Use the --password option (usage: --password \<password\>). Be aware that by using this method your password is in plain text and anyone with access to the bash file could read it.
 
 ## Exclude some folders/file from the zip file:
-Use the -x option. usage: -x (\<path\>).
+Use the -x option (usage: zip -x \<path\>).
   
 Exclude a folder:  
 zip -r -q /home/$USER/Backups/$Filename /home/$USER/Documents -x "/home/$USER/Documents/folder"\\*  
