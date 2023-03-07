@@ -11,7 +11,7 @@ Follow [this](https://stackoverflow.com/questions/12973777/how-to-run-a-shell-sc
 You can customize your file however you want. Below are some examples that I personally use:
 
 * ## Encrypt your zip file:
-    Use the zip --password option (usage: ```zip --password <password>```). Beware that by using this method your password is in plain text and anyone with access to the bash file could read it.  
+    Use the zip --password option (usage: ```zip --password <password>```). **Beware that by using this method your password is in plain text and anyone with access to the bash file could read it.**  
     
     
     Example: ```zip --password hello123 -r -q /home/$USER/Backups/$Filename /home/$USER/Documents```
